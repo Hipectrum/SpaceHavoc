@@ -191,6 +191,7 @@ while running:
 
 
 
+
     else:
         if pause:
             pause_text = font.render("Game Paused! Press 'ESC' to resume. 'Q' for quit.", True, (255, 255, 255))
