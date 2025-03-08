@@ -3,6 +3,7 @@ import random
 
 pygame.init()
 screen = pygame.display.set_mode((1280, 960))
+pygame.display.set_caption("Space Havoc")
 font = pygame.font.Font(None, 36)
 clock = pygame.time.Clock()
 
@@ -188,7 +189,6 @@ while running:
 
         cannonballs = [cb for cb in cannonballs if cb.y > 0]
         en_cb = [ecb for ecb in en_cb if ecb.y < HEIGHT]
-
 
 
 
